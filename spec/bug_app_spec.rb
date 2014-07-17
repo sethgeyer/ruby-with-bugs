@@ -17,7 +17,7 @@ describe Bugs do
   end
 
   it "should return the zipcode" do
-    expect(@bug.zip_code).to eq("My zipcode is 80204")
+    expect(@bug.zip).to eq("My zipcode is 80204")
   end
 
   it "should return the correct state fish" do
